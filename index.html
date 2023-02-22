@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="app.css">
+  <title>Programming Job Board</title>
+</head>
+<body>
+  <header>
+    <h1>Programming Job Board</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Employers</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="search-jobs">
+      <h2>Search Jobs</h2>
+      <form action="#" method="get">
+        <label for="job-title">Job Title:</label>
+        <input type="text" id="job-title" name="job-title">
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location">
+        <button type="submit">Search</button>    
+      </form>
+    </section>
+    <section id="featured-jobs">
+      <h2>Featured Jobs</h2>
+      <ul id="featured-jobs-list">
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Programming Job Board. All rights reserved.</p>
+  </footer>
+</body>
+<script src="app.js"></script>
+</html>
